@@ -1,0 +1,27 @@
+.youtube-wrapper {
+  margin: 10px;
+}
+
+.youtube-wrapper .img-thumb img {
+  width: 250px;
+  margin-bottom: 16px;
+}
+
+.youtube-wrapper .title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.youtube-wrapper .desc {
+  margin: 12px 0 0 0;
+  color: #6a737c;
+}
+
+.badge {
+  color: white;
+  border-radius: 6px;
+  background: #1188d3;
+  padding: 4px 12px;
+  font-size: 12px;
+}
