@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import YoutubeComponent from "../../component/YoutubeComponent/YoutubeComponent";
+import Product from "../Product/Product";
 import "./Home.css";
 
 class Home extends Component {
@@ -31,6 +32,10 @@ class Home extends Component {
           />
           <YoutubeComponent />
         </div>
+
+        <h2 className="headline">Counter</h2>
+        <hr />
+        <Product />
       </div>
     );
   }

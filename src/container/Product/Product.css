@@ -1,0 +1,25 @@
+.header {
+  background: #68c93e;
+  display: flex;
+  align-items: center;
+  padding: 6px 20px;
+}
+
+.logo {
+  margin-right: 70px;
+}
+
+.troley {
+  margin-bottom: 20px;
+  display: flex;
+  align-item: center;
+  margin-top: 16px;
+}
+.cart {
+  font-weight: 700;
+  margin-left: auto;
+}
+
+.counter input {
+  text-align: center;
+}
