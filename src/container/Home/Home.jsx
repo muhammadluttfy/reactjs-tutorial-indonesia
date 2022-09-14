@@ -1,9 +1,22 @@
 import React, { Component } from "react";
 import YoutubeComponent from "../../component/YoutubeComponent/YoutubeComponent";
+import LifeCycleComponent from "../LifeCycleComponent/LifeCycleComponent";
 import Product from "../Product/Product";
 import "./Home.css";
 
 class Home extends Component {
+  state = {
+    showComponent: true,
+  };
+
+  componentDidMount() {
+    setTimeout(() => {
+      // this.setState({
+      //   showComponent: false,
+      // });
+    }, 15000);
+  }
+
   render() {
     return (
       <div className="container">
@@ -36,6 +49,10 @@ class Home extends Component {
         <h2 className="headline">Counter</h2>
         <hr />
         <Product />
+
+        <h2 className="headline">Life Cycle Component</h2>
+        <hr />
+        {this.state.showComponent ? <LifeCycleComponent /> : false}
       </div>
     );
   }
